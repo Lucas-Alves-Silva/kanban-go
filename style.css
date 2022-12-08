@@ -6,6 +6,15 @@
     font-family: Roboto;
 }
 
+h1 {
+    margin-top: 25px;
+}
+
+p {
+    background-color: inherit;
+    font-size: 13px;
+}
+
 .header_nav {
     background-color: #151515;
     color: #FFFFFF;
@@ -53,7 +62,7 @@ a:hover {
 main {
     display: grid;
     grid-template-columns: 1fr 300px 1fr;
-    height: 100px;
+    height: 100%;
 }
 
 .box {
@@ -73,30 +82,19 @@ main {
 
 .footer_box_1 {
     background-color: #54A6E2;
-    height: 60px;
-    border-radius: 0 0 20px 20px;
 }
 
 .footer_box_2 {
     background-color: #FEC95B;
-    height: 60px;
-    border-radius: 0 0 20px 20px;
 }
 
 .footer_box_3 {
     background-color: #04AA6D;
-    height: 60px;
+}
+
+.footer_box_1, .footer_box_2, .footer_box_3 {
+    height: 50px;
     border-radius: 0 0 20px 20px;
-}
-
-
-h1 {
-    margin-top: 25px;
-}
-
-p {
-    background-color: inherit;
-    font-size: 13px;
 }
 
 .title1, .title1 h1 {
