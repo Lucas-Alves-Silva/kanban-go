@@ -1,13 +1,11 @@
-@media screen and (max-width: 1140px) {
-    
+@media screen and (max-width: 1200px) {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media screen and (max-width: 730px) {
-    
+@media screen and (max-width: 740px) { 
     main {
         display: grid;
         grid-template-columns: 1fr;

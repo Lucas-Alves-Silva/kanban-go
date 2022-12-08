@@ -2,17 +2,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #272727;
+    background-color: #1B1D20;
     font-family: Roboto;
 }
 
-.menu {
+.header_nav {
     background-color: #151515;
     color: #FFFFFF;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 150px;
-    justify-content: space-between;
     align-items: center;
     position: relative;
 }
@@ -27,14 +26,17 @@
     background-color: #151515;
     width: 100px;
     height: 18px;
+    margin-left: 15px;
 }
 
-.list_nav {
-    justify-self: center;
+.menu {
+    background-color: inherit;
+    width: 20px;
+    margin-left: 30px;
 }
 
-.list_nav ul {
-    list-style: none;
+.menu a:hover {
+    background-color: #FEC95B;
 }
 
 a:link, a:visited, a:active {
@@ -46,15 +48,6 @@ a:link, a:visited, a:active {
 a:hover {
     text-decoration: none;
     color: #151515;
-}
-  
-.menu ul li a:hover {
-    background-color: #FEC95B;
-}
-
-.menu ul li {
-    background-color: #151515;
-    font-weight: 500;
 }
   
 main {
