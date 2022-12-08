@@ -1,2 +1,2 @@
 # Kanban Go!
-Projeto de construção de uma ferramenta de Kanban (To Do List).
+Projeto para desenvolvimento de uma ferramenta de Kanban (To Do List).
