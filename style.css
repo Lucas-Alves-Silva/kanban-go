@@ -80,6 +80,19 @@ main {
     height: 500px;
 }
 
+.tarefa {
+    display: flex;
+    margin: 20px auto;
+    background-color: aliceblue;
+    border: 1px solid #54A6E2;
+    width: 320px;
+    height: auto;
+}
+
+.tarefa p {
+    padding: 8px;
+}
+
 .footer_box_1 {
     background-color: #54A6E2;
 }
@@ -99,16 +112,17 @@ main {
 
 .title1, .title1 h1 {
     background-color: #54A6E2;
-    border-radius: 20px 20px 0 0;
 }
 
 .title2, .title2 h1 {
     background-color: #FEC95B;
-    border-radius: 20px 20px 0 0;
 }
 
 .title3, .title3 h1 {
     background-color: #04AA6D;
+}
+
+.title1, .title2, .title3, h1 {
     border-radius: 20px 20px 0 0;
 }
   
