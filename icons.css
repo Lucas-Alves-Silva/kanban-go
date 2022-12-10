@@ -1,0 +1,14 @@
+/*Customização de ícones*/
+
+i.fas, i.fab, i.fa {
+  border: none;
+}
+
+i.fa-brands, i.fa-whatsapp {
+    color: #FFFFFF;
+}
+
+i.fa-whatsapp:hover {
+    color: #FFD72C;
+    cursor: pointer;
+}

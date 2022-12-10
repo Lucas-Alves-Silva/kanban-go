@@ -1,3 +1,30 @@
+@media (max-width: 1588px) {
+    .button {
+        display: block;
+        background-color: #555555;
+        color: #FFFFFF;
+        width: 100px;
+        height: 89px;
+        border: none;
+        text-decoration: none;
+    }
+    
+    .button:hover {
+        display: block;
+        background-color: #ffbd39;
+        color: #151515;
+        width: 100px;
+        height: 89px;
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .whatsapp_button {
+        display: none;
+    }
+}
+
 @media (max-width: 1200px) {
     main {
         display: grid;

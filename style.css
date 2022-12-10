@@ -45,6 +45,7 @@ p {
 }
 
 .button {
+    display: none;
     background-color: #555555;
     color: #FFFFFF;
     width: 100px;
@@ -54,13 +55,20 @@ p {
 }
 
 .button:hover {
-    background-color: #ffbd39;
+    display: none;
+    background-color: #FFD72C;
     color: #151515;
     width: 100px;
     height: 89px;
     border: none;
     text-decoration: none;
     cursor: pointer;
+}
+
+.whatsapp_button {
+    position: fixed;
+    top: 850px;
+    right: 40px;
 }
 
 a {
@@ -90,7 +98,7 @@ main {
     height: 500px;
 }
 
-.tarefa {
+.tarefa_iniciada {
     display: flex;
     margin: 20px auto;
     background-color: aliceblue;
@@ -99,7 +107,33 @@ main {
     height: auto;
 }
 
-.tarefa p {
+.tarefa_iniciada p {
+    padding: 8px;
+}
+
+.tarefa_andamento {
+    display: flex;
+    margin: 20px auto;
+    background-color: #fffbf5;
+    border: 1px solid #FEC95B;
+    width: 320px;
+    height: auto;
+}
+
+.tarefa_andamento p {
+    padding: 8px;
+}
+
+.tarefa_finalizada {
+    display: flex;
+    margin: 20px auto;
+    background-color: #eafff7;
+    border: 1px solid #04AA6D;
+    width: 320px;
+    height: auto;
+}
+
+.tarefa_finalizada p {
     padding: 8px;
 }
 
